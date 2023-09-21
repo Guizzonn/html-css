@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">title</h1>
+    <p id="description">Explanation</p>
+    <form id="survey-form">
+      <fieldset>
+      <label for "name" 
+               id="name-label"> Enter your name: 
+        <input id="name"
+               type="text" required 
+               placeholder="Enter your name">
+      <label for "email" 
+             id="email-label"> Enter your email:
+        <input id="email" required
+               type="email"
+               placeholder="Enter your email">
+      <label for "number" 
+             id="number-label"> Enter your age (years):
+        <input for "number"
+               placeholder="Enter your age(years)"
+               id="number" 
+               type= "number" 
+               min="18" 
+               max="100" 
+               required>
+       </fieldset>
+       <fieldset>
+        <label for="dropdown">Dropdown?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp News 2</option>
+          </select>
+        </label>
+        <label> Escolha uma opção: </label>
+        <label for="radio">
+          <input id="button"
+                value="value" 
+                type="radio" 
+                name="button" 
+                class="inline" /> Button</label>
+        <label for="radio">
+          <input id="button" 
+                 value="value"
+                 type="radio" 
+                 name="button" 
+                 class="inline" /> Button 2</label>
+        </fieldset>
+        <fieldset>
+        <label> Escolha mais opções: </label>
+        <input type="checkbox"
+               id="checkbox"
+               name="checkbox"
+               value="checkbox">
+               <label for="horns">Horns</label>
+        <input type="checkbox" 
+               id="checkbox" 
+               name="checkbox" 
+               value="checkbox">
+               <label for="horns">Horns</label>
+        <input type="checkbox" 
+               id="checkbox" 
+               name="checkbox" 
+               value="checkbox">
+               <label for="horns">Horns</label>
+      </fieldset>
+      <label for="comments">Provide a bio:
+          <textarea id="bio" name="comments" rows="3" cols="30" placeholder="Comments plz"></textarea>
+        </label>
+        <button id="submit">Submit</button>
+        </form>
