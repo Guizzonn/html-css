@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header> 
+    <main>
+        <article>
+            <h2>Teste Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat tenetur officiis rerum harum voluptatum unde nemo tempore deleniti asperiores, repellat quisquam cumque maiores earum nam vero nulla iste velit officia.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptate magnam repudiandae architecto soluta omnis a numquam et recusandae doloribus autem exercitationem repellendus accusantium tempora non, quo, vero nobis ducimus!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore odit a ipsum saepe esse sequi, suscipit sint corrupti debitis, ut delectus minus repellendus modi, labore hic necessitatibus quisquam voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat odit magnam accusantium sapiente neque esse sint, dolorem assumenda dolor, hic quae? Voluptatibus, consequatur! Doloribus, tempora. Qui minima accusamus aspernatur.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, neque. Dignissimos cum provident, magni voluptas veritatis iusto, nobis rem ad, asperiores labore quaerat. Fugit illum atque libero aspernatur minima a. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, iusto magni quaerat beatae explicabo amet repudiandae nemo consectetur voluptatem! Laudantium amet provident fuga nihil repellat adipisci consequatur quisquam distinctio nobis!</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
