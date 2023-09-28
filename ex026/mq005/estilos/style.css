@@ -35,7 +35,7 @@ menu {
     display: none;
 }
 
-menu >ul {
+menu > ul {
     list-style-type: none;
 }
 
